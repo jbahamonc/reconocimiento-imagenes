@@ -1,0 +1,16 @@
+{
+  "name": "reconocimiento-imagenes",
+  "version": "1.0.0",
+  "description": "Proyecto de reconocimiento de imagenes utilizando las API de IBM Visual Recognition y Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "materialize-css": "^0.100.2",
+    "watson-developer-cloud": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jefferson Bahamon",
+  "license": "ISC"
+}
