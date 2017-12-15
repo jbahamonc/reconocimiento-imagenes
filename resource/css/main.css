@@ -1,0 +1,223 @@
+nav {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 30px 0 0;
+    height: 50px;
+}
+
+.container-wide {
+    padding: 0 2em;
+}
+
+nav ul li .nav-sign-up {
+    z-index: 0;
+    margin-left: 15px;
+    padding: 0 15px;
+    line-height: 33px;
+    letter-spacing: .5px;
+    font-weight: 500;
+    background-color: white;
+    border: 2px solid white;
+    color: #F62D51;
+    border-radius: 90px;
+}
+
+nav ul li .nav-sign-up:hover {
+    color: white;
+}
+
+.btn:hover, .btn-large:hover, .signup-modal #mc-embedded-subscribe:hover, .btn:focus {
+    background-color: #f16a67;
+    color: white;
+}
+
+nav ul li a {
+    font-size: 11px !important;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.hero {
+    color: #fafafa;
+    padding-top: 190px;
+    background: linear-gradient(50deg, HSLA(205, 62%, 44%, 1), #F62D51);
+    width: 100%;
+}
+
+.hero .hero-text {
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    max-width: 400px;
+    padding-bottom: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 500px;
+}
+
+.sign-up-btn, .signup-modal #mc-embedded-subscribe {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 240px;
+    border-radius: 100px;
+    background-color: #F62D51;
+    z-index: 0;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.hero .hero-img-col {
+    padding: 0;
+    margin-bottom: -6px;
+}
+
+/* section how*/
+.how {
+    padding-top: 80px;
+    color: #6c747f;
+}
+
+.how .how-question, .how .how-end-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.how .how-icon {
+    padding: 20px 0 20px;
+    color: #F62D51;
+    text-align: center;
+}
+
+.how .how-icon i {
+    font-size: 40px;
+}
+
+.how .how-step {
+    margin-bottom: 0;
+}
+
+.how .how-step-left {
+    border-right: 3px dashed HSLA(205, 85%, 92%, 1);
+    min-height: 550px;
+    padding-bottom: 200px;
+}
+
+.how .how-step-left .how-step-left-icon i {
+    font-size: 50px;
+    color: #F62D51;
+}
+
+.how .how-step-title {
+    color: #F62D51;
+    font-size: 35px;
+    margin-top: 0;
+    max-width: 450px;
+}
+
+.how .how-step-description {
+    max-width: 450px;
+}
+
+.how .how-step-right {
+    padding-top: 80px;
+}
+
+.how .how-end-icon {
+    background-color: HSLA(205, 85%, 92%, 1);
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 10000px;
+}
+
+.how .how-end-icon i {
+    line-height: 10px;
+}
+
+.how .how-end-title {
+    padding-top: 20px;
+}
+
+.how .how-end-cta {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.training {
+    padding: 80px 0px;
+}
+
+.btn-file-upload {
+    background-color: #F62D51;
+}
+
+footer {
+    padding: 60px 0;
+    background-color: #23334B;
+    color: white;
+}
+
+/* modal */
+.modal {
+    /* max-width: 400px; */
+    min-height: 500px;
+    background-color: HSLA(0, 0%, 100%, 1);
+    text-align: center;
+    padding: 0 10px;
+}
+
+.modal .signup-modal-close {
+    color: rgba(108, 116, 127, 0.5);
+    text-align: right;
+    margin: -15px -23px 0 0;
+    cursor: pointer;
+}
+
+.modal .signup-modal-title {
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.modal .signup-modal-description {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c747f;
+}
+
+.modal .signup-modal-response {
+    padding: 10px;
+    margin: 10px 40px;
+    background-color: #ececec;
+    border-radius: 3px;
+    height: 300px;
+    position: relative;
+}
+
+.modal .signup-modal-response .preloader {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+}
+
+.modal .signup-modal-response .response {
+    text-align: left;
+    font-family: monospace;
+    overflow-x: auto;
+}
